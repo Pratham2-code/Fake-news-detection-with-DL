@@ -47,7 +47,7 @@ try:
 except Exception as e:
     print(f"! Load Error: {e}")
 
-GEMINI_API_KEY = "AIzaSyD_IwqmearAFknTLaUFUuUiAkrVbQ8O3fA"
+GEMINI_API_KEY = "your api key"
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 class PredictRequest(BaseModel):
